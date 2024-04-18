@@ -1,5 +1,5 @@
 :root {
-    --header-background-color: linear-gradient(#002147, #1d5d99);
+    --header-background-color: linear-gradient(30deg, #002147, #1d5d99);
 }
 
 .background-header {

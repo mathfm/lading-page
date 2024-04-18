@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg"
 
 export default function Header() {
   return (
-    <header className="d-flex justify-content-between p-3 mb-4 background-header">
+    <header className="d-flex justify-content-between p-3 mb-5 background-header">
       <a class="navbar-brand" href="#">
         <img src={logo} alt="Bootstrap" width="150"/>
       </a>
