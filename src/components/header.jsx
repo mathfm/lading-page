@@ -1,19 +1,19 @@
 import "../App.css"
+import logo from "../assets/logo.svg"
+
 export default function Header() {
-    return (
-        <header className="d-flex flex-wrap justify-content-center p-3 mb-4 border-bottom background-header">
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        
-        <span className="fs-4">Health Plus</span>
+  return (
+    <header className="d-flex justify-content-between p-3 mb-4 background-header">
+      <a class="navbar-brand" href="#">
+        <img src={logo} alt="Bootstrap" width="150"/>
       </a>
-       
-      <ul className="nav nav-pills">
-        <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Features</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Pricing</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">FAQs</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">About</a></li>
+
+      <ul className="nav">
+        <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Quem somos</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Sobre</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Contato</a></li>
       </ul>
     </header>
-    )
+  )
 }
