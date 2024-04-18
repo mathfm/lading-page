@@ -23,3 +23,22 @@
 
 }
 
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.division-bar{
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.services{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
