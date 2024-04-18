@@ -9,3 +9,16 @@
 .nav-link {
     color: rgb(255, 255, 255);
 }
+.card{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    
+
+}
+.card-image{
+    width: 82px;
+    height: 72px;
+    display: flex;
+
+}
