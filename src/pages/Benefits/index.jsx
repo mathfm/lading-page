@@ -6,7 +6,7 @@ import heart from "../../assets/frame.svg"
 
 export default function Benefits(){
     return(
-        <section className="container">
+        <section className="container py-5 mt-5">
             <div className='col-12 text-center p-5'>
 
                 <div className='row'>
@@ -15,14 +15,14 @@ export default function Benefits(){
                     <div className='division-bar bg-primary'></div>
                 </div>
 
-                <div className='row mt-5'>
-                    <div className='col-4'>
+                <div className='row mt-5 flex-column flex-lg-row'>
+                    <div className='col-lg-4 col-12 mb-5'>
                         <CardSpecialities image={heart} title="Saúde" text="Melhore sua saúde com o HealthPlus!" />
                     </div>
-                    <div className='col-4'>
+                    <div className='col-lg-4 col-12 mb-5'>
                         <CardSpecialities image={esporte} title="Esporte" text="Adquira saúde por meio dos esportes com o HealthPlus!" />
                     </div>
-                    <div className='col-4'>
+                    <div className='col-lg-4 col-12 mb-5'>
                         <CardSpecialities image={bem_estar} title="Bem Estar" text="Além da saúde física, cuide da sua saúde mental com o HealthPlus!" />
                     </div>
                 </div>
